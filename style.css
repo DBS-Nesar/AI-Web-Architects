@@ -1,5 +1,4 @@
 *{
-    font-family: sans-serif;
     margin: 0;
     padding: 0;
 
@@ -14,9 +13,11 @@ body{
     margin-top: 25px;
     line-height: 50px;
     color:whitesmoke;
+    font-family: arial;
 }
 #headings{
         color:whitesmoke;
+        font-family: 'Trebuchet MS';
 }
 #navbar{
     display:flex;
@@ -35,8 +36,14 @@ body{
     font-weight: 400;
 }
 #logo{
-    left:40px;
     display: inline-block;
+    height: 65px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#logo:hover{
+    transition:all 0.4s ease-in;
+    transform: scale(1.20);
 }
 #form-container{
     margin-top: 150px;
@@ -60,6 +67,7 @@ body{
     height: 30px;
     width:300px;
     text-align: center;
+    font-family: arial;
 }
 #footer{
     background-color: rgba(0, 0, 0, 0.65);
@@ -67,6 +75,7 @@ body{
     height: 100px;
     color:whitesmoke;
     margin-top:70px;
+    font-family: arial;
 }
 .links:hover{
     color:orange;
