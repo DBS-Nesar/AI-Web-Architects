@@ -37,7 +37,7 @@ body{
 }
 #logo{
     display: inline-block;
-    height: 65px;
+    height: 100px;
     margin-left: 10px;
     margin-bottom: 10px;
 }
@@ -114,6 +114,7 @@ body{
     transform: translateX(600px);
 }
     
+
 
 
 
