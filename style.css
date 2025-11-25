@@ -59,7 +59,7 @@ body{
     font-weight: 900;
     width:400px;
     color:whitesmoke;
-    
+    padding-top:20px;
 }
 .inputs{
     border-radius: 10px;
@@ -125,6 +125,7 @@ body{
     width:500px;
     font-family: arial;
 }
+
 
 
 
