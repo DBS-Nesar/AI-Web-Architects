@@ -67,6 +67,7 @@ body{
     height: 30px;
     width:300px;
     font-family: arial;
+    padding-left:10px;
 }
 .links:hover{
     color:orange;
@@ -113,6 +114,8 @@ body{
     height: 100px;
     width:500px;
     font-family: arial;
+    padding-left:10px;
+    padding-top:5px;
 }
 #credit{
     height:200px;
@@ -150,6 +153,7 @@ footer {
     font-size: 13px;
     display: block;
 }
+
 
 
 
