@@ -59,7 +59,7 @@ body{
     font-weight: 700;
     width:400px;
     color:whitesmoke;
-    margin-top:30px
+    margin-top:30px;
 }
 .inputs{
     border-radius: 10px;
@@ -113,6 +113,7 @@ body{
     font-style:arial;
     padding-top:10px;
     text-align: right;
+    display:inline-block;
 }
 .footer:hover{
     border:0.01px dashed orange;
@@ -131,6 +132,7 @@ body{
     width:150px;
     border-radius:50%;
 }
+
 
 
 
