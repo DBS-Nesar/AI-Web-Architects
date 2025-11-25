@@ -111,8 +111,9 @@ body{
     justify-content:space-around;
 }
 .footer{
-    font-size:10px;
+    font-size:13px;
     font-style:arial;
+    padding-top:4px
 }
 .footer:hover{
     box-shadow: 2px 2px 2px 2px orange;
@@ -120,6 +121,7 @@ body{
 }
 
     
+
 
 
 
