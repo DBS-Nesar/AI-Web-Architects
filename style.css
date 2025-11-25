@@ -113,7 +113,7 @@ body{
     font-style:arial;
     padding-top:10px;
     text-align: right;
-    display:inline;
+    display:inline-block;
 }
 .footer:hover{
     border:0.01px dashed orange;
@@ -128,12 +128,15 @@ body{
     font-family: arial;
 }
 #credit{
-    display:flex;
-    justify-content:center;
     height:150px;
     width:150px;
     border-radius:50%;
 }
+#credit-div{
+    display:inline-flex;
+    justify-content:center;
+}
+
 
 
 
