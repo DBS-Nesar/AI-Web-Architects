@@ -146,7 +146,7 @@ footer {
 
 /* ⭐ Text container (your original ID: #f-d) */
 #f-d {
-    text-align: left;
+    text-align: right;
     display: flex;
     flex-direction: column;  /* makes multiline */
 }
@@ -160,10 +160,11 @@ footer {
 
 /* ⭐ Your image (original ID: #credit) */
 #credit {
-    height: 130px;
-    width: 130px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
 }
+
 
 
 
