@@ -117,6 +117,7 @@ body{
 }
 .footer:hover{
     border:0.01px dashed orange;
+    border-radius:10px
     color:orange;
     font-size:14px;
 }
@@ -138,6 +139,7 @@ body{
 f-d{
     width:40%;
 }
+
 
 
 
