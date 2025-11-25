@@ -74,6 +74,7 @@ body{
     color:whitesmoke;
     margin-top:70px;
     font-family: arial;
+    text-align:right;
 }
 .links:hover{
     color:orange;
@@ -113,7 +114,6 @@ body{
     font-style:arial;
     padding-top:10px;
     text-align: right;
-    display:inline-block;
 }
 .footer:hover{
     border:0.01px dashed orange;
@@ -132,10 +132,7 @@ body{
     width:150px;
     border-radius:50%;
 }
-#credit-div{
-    display:inline-flex;
-    justify-content:center;
-}
+
 
 
 
