@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-@keyframes headings{
+@keyframes head{
     from{transform: translateX(0px);}
     to{transform:translateX(335px);}
 }
@@ -175,7 +175,7 @@ footer {
     margin-top:30px;
     color:whitesmoke;
     font-family: 'Trebuchet MS';
-    animation-name: headings;
+    animation-name: head;
     animation-duration: 0.8s;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in;
@@ -183,6 +183,7 @@ footer {
     animation-fill-mode: forwards;
     animation-delay: 0.3s;
 }
+
 
 
 
