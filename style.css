@@ -179,10 +179,10 @@ footer {
     animation-duration: 0.8s;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in;
-    animation: headings 0.8s ease-in;
     animation-fill-mode: forwards;
     animation-delay: 0.3s;
 }
+
 
 
 
