@@ -52,6 +52,7 @@ body{
     height: 65px;
     margin-left: 10px;
     margin-bottom: 1px;
+    border-radius:50%;
 }
 #logo:hover{
     transition:all 0.25s ease-in;
@@ -182,6 +183,7 @@ footer {
     animation-fill-mode: forwards;
     animation-delay: 0.3s;
 }
+
 
 
 
