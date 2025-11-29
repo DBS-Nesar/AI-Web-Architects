@@ -10,6 +10,9 @@
     from{transform: translateX(0px);}
     to{transform:translateX(300px);}
 }
+#icon{
+    border-radius:50%;
+}
 body{
     background-image:url("galaxy-wallpaper-warm-colors.jpg");
     background-size: cover;
@@ -196,6 +199,7 @@ footer {
     display: block;
     padding-left:5px;
 }
+
 
 
 
