@@ -152,7 +152,7 @@ body{
 }
 #salary-div2{
     display:flex;
-    width:400px;
+    width:310px;
     margin-right:100px
 }
 .footer:hover{
@@ -212,6 +212,7 @@ footer {
     display: block;
     padding-left:5px;
 }
+
 
 
 
