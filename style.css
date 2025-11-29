@@ -123,13 +123,22 @@ body{
 .gender{
     color:white;
     display: inline-block;
-    bottom:10px
+    bottom:10px;
+}
+.salary{
+    color:white;
+    display: inline-block;
+    bottom:10px;
 }
 #total-spaced-form{
     display:flex;
     justify-content:center;
 }
 #gender-div{
+    display:flex;
+    justify-content:center;
+}
+#salary-div{
     display:flex;
     justify-content:center;
 }
@@ -140,6 +149,11 @@ body{
     display:flex;
     width:270px;
     justify-content:space-around;
+}
+#salary-div2{
+    display:flex;
+    width:400px;
+    margin-right:100px
 }
 .footer:hover{
     border:0.01px dashed orange;
@@ -198,6 +212,7 @@ footer {
     display: block;
     padding-left:5px;
 }
+
 
 
 
