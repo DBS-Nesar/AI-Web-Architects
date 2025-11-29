@@ -125,15 +125,12 @@ body{
     display: inline-block;
     bottom:10px;
 }
-.salary-option {
+.salary-option,.exp-option{
     color: white;
     font-family: arial;
     font-size: 16px;
     display: flex;
     align-items: center;    
-}
-#showing-salary{
-    width:700px;
 }
 #total-spaced-form{
     display:flex;
@@ -143,7 +140,7 @@ body{
     display:flex;
     justify-content:center;
 }
-#salary-div {
+#salary-div,#exp-div {
     display: flex;
     flex-direction: column;   
     align-items: flex-start; 
@@ -157,11 +154,6 @@ body{
     display:flex;
     width:270px;
     justify-content:space-around;
-}
-#salary-div2{
-    display:flex;
-    width:310px;
-    margin-right:100px
 }
 .footer:hover{
     border:0.01px dashed orange;
@@ -220,6 +212,7 @@ footer {
     display: block;
     padding-left:5px;
 }
+
 
 
 
