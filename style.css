@@ -197,7 +197,7 @@ select option {
     margin-top: 30px;
     margin-bottom: 50px;
     border-radius: 15px;
-    color: rgba(255, 255, 255, 0.6);
+    color: linear-gradient(pink,magenta);
 }
 
 #submit-button:hover {
@@ -341,4 +341,5 @@ form {
     box-shadow: 0 0 25px rgba(255, 165, 0, 0.3);
     border-radius: 12px;
 }
+
 
