@@ -149,7 +149,8 @@ body {
     width: 650px;
     height: auto;
     border-radius: 15px;
-    backdrop-filter: blur(12px);
+    backdrop-filter: blur(13.3px);
+    border:1px solid rgba(255,255,255,0.7)
 }
 
 #form {
@@ -339,6 +340,7 @@ form {
     box-shadow: 0 0 25px rgba(255, 165, 0, 0.3);
     border-radius: 12px;
 }
+
 
 
 
