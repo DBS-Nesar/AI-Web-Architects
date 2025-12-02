@@ -67,7 +67,7 @@ body {
     background: -webkit-linear-gradient(135deg, whitesmoke, orange 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    
+    font-weight:900;
 }
 
 #f-main-head {
@@ -85,7 +85,7 @@ body {
     animation-fill-mode: forwards;
     animation-timing-function: ease-in;
     width: 400px;
-    font-weight:450;
+    font-weight:800;
 }
 /* -------------------------------------- */
 /* NAVBAR */
@@ -487,6 +487,7 @@ form {
     border: 1px solid rgba(255,255,255,0.7);  
     flex-wrap: nowrap;      
 }
+
 
 
 
