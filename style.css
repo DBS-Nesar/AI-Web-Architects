@@ -18,6 +18,12 @@
     from { transform: translateX(0px); }
     to { transform: translateX(300px); }
 }
+@media screen and (min-width: 600px) and (max-width:1100px){
+    @keyframes head {
+    from { transform: translateX(0px); }
+    to { transform: translateX(55%); }
+}
+}
 
 /* -------------------------------------- */
 /* GLOBAL */
@@ -435,3 +441,4 @@ form {
     border: 1px solid rgba(255,255,255,0.7);  
     flex-wrap: nowrap;      
 }
+
