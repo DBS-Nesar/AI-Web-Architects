@@ -400,8 +400,9 @@ select option {
     font-family: sans-serif;
     font-weight: 700;
     width: 400px;
+    height:49px;
     margin-top: 30px;
-    border-radius: 9px;
+    border-radius: 6px;
     color: black;
     border:2px solid white
 }
@@ -476,5 +477,6 @@ footer {
     transform: scale(1.10);
     transition-duration: 0.4s;
 }
+
 
 
