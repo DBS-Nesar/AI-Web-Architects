@@ -59,10 +59,11 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Trebuchet MS';
-    animation-name: headings;
-    animation-duration: 0.8s;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in;
+    margin: 20px auto;
+    text-align: center;
+    background: -webkit-linear-gradient(whitesmoke, orange);
+    -webkit-background-clip: text;
+    font-weight: 450;
     width: 400px;
     font-weight: 450;
 }
@@ -282,7 +283,8 @@ body {
     margin-top: 150px;
     background-color: rgba(0, 0, 0, 0.24);
     text-align: center;
-    width: 120vh;
+    width: 100%;
+    max-width: 900px;
     height: auto;
     border-radius: 15px;
     backdrop-filter: blur(13.3px);
@@ -470,6 +472,7 @@ footer {
     transform: scale(1.10);
     transition-duration: 0.4s;
 }
+
 
 
 
