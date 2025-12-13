@@ -284,7 +284,7 @@ body {
     background-color: rgba(0, 0, 0, 0.24);
     text-align: center;
     width: 100%;
-    max-width: 900px;
+    max-width: 650px;
     height: auto;
     border-radius: 15px;
     backdrop-filter: blur(13.3px);
@@ -358,13 +358,14 @@ select option {
 
 .salary-option,
 .exp-option {
-    color: white;
-    font-family: arial;
-    font-size: 16px;
     display: flex;
     align-items: center;
-    font-weight: 100;
+    gap: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
 }
+
 
 #gender-div {
     display: flex;
@@ -373,9 +374,10 @@ select option {
 
 #gender-div2 {
     display: flex;
-    width: 270px;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 300px;
 }
+
 
 #male {
     padding-right: 20px;
@@ -385,8 +387,10 @@ select option {
 #exp-div {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 10px;
+    align-items: flex-start; /* IMPORTANT */
+    gap: 12px;
+    margin: 0 auto;          /* center block */
+    width: 380px;    
 }
 
 #submit-button,#reset-button {
@@ -471,6 +475,7 @@ footer {
     transform: scale(1.10);
     transition-duration: 0.4s;
 }
+
 
 
 
