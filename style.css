@@ -23,21 +23,7 @@ body {
     border-radius: 50%;
 }
 
-/* -------------------------------------- */
-/* ANIMATIONS */
-/* -------------------------------------- */
 
-@keyframes headings {
-    from { transform: translateX(0px); }
-    to { transform: translateX(300px); }
-}
-@keyframes smh {
-    from { transform: translateX(0px); }
-    to { transform: translateX(285px); }
-}
-/* -------------------------------------- */
-/*MOB FRIENDLY*/
-/* -------------------------------------- */
 /* -------------------------------------- */
 /* HEADINGS & TEXT STYLES */
 /* -------------------------------------- */
@@ -69,9 +55,6 @@ body {
 }
 #f-main-head {
     margin: 20px;
-    animation-name: smh;
-    animation: smh 0.8s ease-in 0s 1;
-    animation-fill-mode: forwards;
 }
 /* -------------------------------------- */
 /* NAVBAR & MENU */
@@ -475,6 +458,7 @@ footer {
     transform: scale(1.10);
     transition-duration: 0.4s;
 }
+
 
 
 
